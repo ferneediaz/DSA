@@ -12,6 +12,7 @@
 #Find the unique number (this kata)
 Find the unique string
 #Find The Unique
+
 def find_uniq(arr):
     for char in set(arr):
         if arr.count(char) == 1:
