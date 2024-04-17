@@ -5,3 +5,4 @@ class Solution:
             if x in words[i]:
                 res.append(i)
         return res
+#same pattern with most leetcode questions
