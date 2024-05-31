@@ -11,4 +11,7 @@ class Solution:
                 left = mid +1
             else:
                 right = mid -1
-        return letters[left] if left < len(letters) else letters[0]
+        if left < len(letters):
+            return letters[left]
+        else:
+            return letters[0]
