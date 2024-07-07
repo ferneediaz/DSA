@@ -8,4 +8,4 @@ class Solution:
         if any(c not in counter for c in balloon):
             return 0
         else:
-            return min(counter['b'],counter['a'],counter['l'],counter['l'],counter['o'],counter['o'],counter['n'])
+            return min(counter['b'],counter['a'],counter['l']//2,counter['o']//2,counter['n'])
