@@ -6,7 +6,6 @@ func CountBy(x, n int) []int {
   for i := 1; i <= n; i++ {
         result[i-1] = x * i
     }
-    
-    // Return the slice containing the multiples
+
     return result
 }
